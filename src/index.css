@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .buttonbg {
+        @apply relative z-[1] after:absolute after:z-[-1] after:bg-bgButton after:inset-0 after:opacity-100 hover:after:opacity-0 after:duration-300 hover:bg-bgButton hover:bg-clip-text hover:text-transparent outline hover:rounded-2xl overflow-hidden outline-[1px] outline-transparent hover:outline-[#1C53CF]
+    }
+
+
+    .row {
+        @apply flex flex-row flex-wrap -mx-3
+    }
+}
