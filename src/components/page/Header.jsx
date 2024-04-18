@@ -25,6 +25,7 @@ const Header = () => {
               } flex max-sm:fixed max-sm:top-0 max-sm:justify-center max-sm:bg-white md:bg-full bg-cover max-sm:h-full max-sm:w-full max-sm:z-30 max-sm:duration-300 max-sm:flex-col gap-10 items-center `}
             >
               <a
+                onClick={() => setOpen(false)}
                 aria-label="benifits"
                 href="#benifits"
                 className=" ff-neue font-semibold text-base leading-[20.61px] lg:text-white-100 duration-300 hover:text-black"
@@ -32,13 +33,18 @@ const Header = () => {
                 Benifits
               </a>
               <a
+                onClick={() => setOpen(false)}
                 aria-label="testimonials"
                 href="#testimonials"
                 className=" ff-neue font-semibold text-base leading-[20.61px] lg:text-white-100 duration-300 hover:text-black"
               >
                 Testimonials
               </a>
-              <a aria-label="button" href="#home">
+              <a
+                onClick={() => setOpen(false)}
+                aria-label="button"
+                href="#home"
+              >
                 <NavButton text="Book Consultation Now" />
               </a>
             </li>

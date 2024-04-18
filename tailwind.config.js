@@ -24,7 +24,8 @@ export default {
         'content': '1164px'
       },
       backgroundImage: {
-        bgButton: 'linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%)'
+        bgButton: 'linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%)',
+        bgButtonnone: 'none'
       },
       animation: {
         'spin-slow': 'wiggle 300ms linear  2 forwards',

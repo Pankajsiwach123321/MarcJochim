@@ -107,7 +107,7 @@ const Client = () => {
             </span>
             <div className=" flex lg:items-end items-start gap-1">
               <div className=" flex items-end ">
-                <p className=" ff-neue lg:-rotate-90 font-normal text-2xl lg:text-[40px]">
+                <p className=" ff-neue rotate-180 -translate-y-1 lg:translate-y-0 lg:-rotate-90 font-normal text-2xl lg:text-[40px]">
                   90
                 </p>
               </div>

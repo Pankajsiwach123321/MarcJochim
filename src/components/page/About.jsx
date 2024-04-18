@@ -56,9 +56,9 @@ const About = () => {
                 Marc J. Hubrich is the founder of the mindset agency
                 specializing in consulting services.
               </p>
-              <div className=" group mt-9 bg-bgButton p-[2px] rounded-[59px] inline-block">
+              <div className=" group mt-9 bg-bgButton hover:bg-bgButtonnone group p-[2px] rounded-[59px] inline-block">
                 <div className=" bg-white rounded-[59px]">
-                  <button className="  px-4 md:px-[32px] py-4 flex items-center gap-3 bg-bgButton bg-clip-text text-transparent font-inter font-medium text-base leading-6">
+                  <button className="  px-4 md:px-[32px] group-hover:bg-orange-white-100 group-hover:bg-bgButtonnone py-4 flex items-center gap-3 bg-bgButton bg-clip-text group-hover:bg-clip-border rounded-[59px] duration-300 group-hover:text-white text-transparent font-inter font-medium text-base leading-6">
                     Learn More About The Agency{" "}
                     <span className=" inline-block group-hover:translate-x-[3px] duration-300">
                       <ArrowButton />
