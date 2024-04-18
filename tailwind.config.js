@@ -28,11 +28,16 @@ export default {
       },
       animation: {
         'spin-slow': 'wiggle 300ms linear  2 forwards',
+        'spin-flower': 'flower 60s linear infinite forwards',
       },
       keyframes: {
         wiggle: {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(13deg)' },
+        },
+        flower: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
         }
       },
     },

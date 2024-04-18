@@ -2,39 +2,63 @@ import girlProfile from "../../assets/images/girlprofile.png";
 import { FaceBook, Instagram, Mail, Twitter } from "./Icon";
 
 export const fightData = [
-  { para: "Your self-esteem is in the basement." },
-  { para: "You keep asking yourself what you did wrong" },
-  { para: "The feeling of helplessness is your constant companion." },
-  { para: "You spend the nights alone and lonely." },
+  {
+    para: "Your self-esteem is in the basement.",
+    aos: "zoom-in",
+  },
+  {
+    para: "You keep asking yourself what you did wrong",
+    aos: "zoom-in",
+  },
+  {
+    para: "The feeling of helplessness is your constant companion.",
+    aos: "zoom-in",
+  },
+  {
+    para: "You spend the nights alone and lonely.",
+    aos: "zoom-out",
+  },
   {
     para: "You have stopped going out and spend the time crying in your room.",
+    aos: "zoom-out",
   },
-  { para: "An emotional chaos is raging inside you." },
+  {
+    para: "An emotional chaos is raging inside you.",
+    aos: "zoom-out",
+  },
 ];
 export const harmonesData = [
-  { para: "How do I let go of my EX so I can finally leave him behind?" },
-  { para: "How does the divorce process work?" },
-  { para: "Do I need a lawyer?" },
-  { para: "How much will the divorce cost?" },
-  { para: "What will happen to my children?" },
-  { para: "What does my future as a single person look like now?" },
-  { para: "How do I rebuild my self-esteem?" },
+  {
+    para: "How do I let go of my EX so I can finally leave him behind?",
+    aos: "zoom-in",
+  },
+  { para: "How does the divorce process work?", aos: "zoom-in" },
+  { para: "Do I need a lawyer?", aos: "zoom-in" },
+  { para: "How much will the divorce cost?", aos: "zoom-out" },
+  { para: "What will happen to my children?", aos: "zoom-out" },
+  { para: "What does my future as a single person look like now?", aos: "zoom-out" },
+  { para: "How do I rebuild my self-esteem?", aos: "zoom-out" },
 ];
 export const goalData = [
   {
     para: "Why does your EX have to disappear from your life forever?",
+    aos: "zoom-in",
   },
   {
     para: "What should your everyday life as a single person look like now and how can you cope with the new challenges?",
+    aos: "zoom-in",
   },
   {
     para: "How can you handle the divorce quickly and without complications, without worrying about finances or the well-being of the children?",
+    aos: "zoom-in",
   },
   {
     para: "Who are you without your EX?",
+    aos: "zoom-out",
   },
   {
     para: "What new dreams and hopes do you want to live?",
+    aos: "zoom-out",
   },
 ];
 export const firstSwiperData = [

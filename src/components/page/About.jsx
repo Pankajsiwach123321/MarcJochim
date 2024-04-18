@@ -28,11 +28,17 @@ const About = () => {
           </div>
           <div className="lg:w-6/12 text-center lg:text-start lg:pt-0 pt-6 w-full px-3">
             <div className="lg:pl-[28px]">
-              <h2 className=" ff-neue font-normal text-4xl lg:text-[52px] leading-[46px] lg:leading-[66px]">
+              <h2
+                data-aos="fade-down"
+                className=" ff-neue font-normal text-4xl lg:text-[52px] leading-[46px] lg:leading-[66px]"
+              >
                 LAWYER <span className=" text-orange-white-100">& </span>DIVORCE
                 COACH
               </h2>
-              <p className=" text-4xl leading-[47px] font-normal ff-neue uppercase">
+              <p
+                data-aos="fade-down"
+                className=" text-4xl leading-[47px] font-normal ff-neue uppercase"
+              >
                 <span className="first-letter:text-orange-white-100 inline-block">
                   Marc
                 </span>{" "}

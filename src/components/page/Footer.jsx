@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <footer className=" bg-no-repeat bg-fullsize bg-[url(./assets/images/footerbg.png)] overflow-hidden ">
       <div className="max-w-[1000px] flex flex-col justify-center relative  items-center py-24 flex-grow mx-auto px-3">
-        <LogoFooter />
+        <a href="#home">
+            <LogoFooter />
+        </a>
         <p className="text-base font-normal font-poppines text-center mx-auto leading-[25px] text-white pt-4 max-w-[264px]">
           (c)2024 MARC JOACHIM HUBRICH All Rights Reserved
         </p>

@@ -33,10 +33,16 @@ const Mindset = () => {
         </div>
         <div className="row mt-7 md:mb-[186px] mb-10">
           <div className=" lg:w-1/2 lg:pt-9 text-center lg:text-start w-full xl:w-[484px] px-3 xl:px-0">
-            <p className=" ff-neue font-normal text-[29px] leading-[37px]">
+            <p
+              data-aos="fade-down"
+              className=" ff-neue font-normal text-[29px] leading-[37px]"
+            >
               THE FOUR PHASES OF
             </p>
-            <h2 className=" ff-neue font-normal  uppercase   text-4xl lg:text-[52px] leading-[44px] lg:leading-[62px]">
+            <h2
+              data-aos="fade-up"
+              className=" ff-neue font-normal  uppercase   text-4xl lg:text-[52px] leading-[44px] lg:leading-[62px]"
+            >
               SEPARATION{" "}
               <span className="text-orange-white-100 block ">TARGET</span>
             </h2>

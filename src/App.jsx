@@ -1,4 +1,4 @@
-import LocomotiveScroll from "locomotive-scroll";
+import { useEffect } from "react";
 import "./App.css";
 import { usePreloader } from "./components/common/Hooks";
 import About from "./components/page/About";
@@ -15,35 +15,32 @@ import Over from "./components/page/Over";
 import Preloader from "./components/page/Preloader";
 import Target from "./components/page/Target";
 import Youget from "./components/page/Youget";
-import React, { useEffect } from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
   const isLoading = usePreloader();
-  const scrollRef = React.createRef();
   useEffect(() => {
-    const scroll = new LocomotiveScroll({
-      el: scrollRef.current,
-      smooth: true,
+    AOS.init({
+      duration: 1500,
+      once: true,
     });
-  });
+  }, []);
   return (
-    <div className=" max-w-[1920px] mx-auto ">
-      <div className="scroll" ref={scrollRef}>
-        {isLoading && <Preloader />}
-        <Header />
-        <Fault />
-        <Fight />
-        <Youget />
-        <Goal />
-        <Target />
-        <Mindset />
-        <Over />
-        <About />
-        <Client />
-        <Nonbinding />
-        <BackToTop />
-        <Footer />
-      </div>
+    <div className=" max-w-[1920px] mx-auto overflow-x-clip ">
+      {isLoading && <Preloader />}
+      <Header />
+      <Fault />
+      <Fight />
+      <Youget />
+      <Goal />
+      <Target />
+      <Mindset />
+      <Over />
+      <About />
+      <Client />
+      <Nonbinding />
+      <Footer />
+      <BackToTop />
     </div>
   );
 }

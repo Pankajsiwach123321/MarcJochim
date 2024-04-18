@@ -11,6 +11,7 @@ const Goal = () => {
         <div className="row">
           {goalData.map((data, index) => (
             <div
+              data-aos={data.aos}
               key={index}
               className=" lg:w-4/12 sm:w-1/2 w-full group hover:bg-white-200 duration-300 "
             >
@@ -40,7 +41,7 @@ const Goal = () => {
               <p className=" ff-neue sm:-rotate-90 font-normal text-2xl sm:text-[40px]">
                 03
               </p>
-              <p className=" ff-neue translate-y-2  font-normal text-2xl leading-[30px]">
+              <p className=" ff-neue sm:translate-y-2  font-normal text-2xl leading-[30px]">
                 GOAL
               </p>
             </div>

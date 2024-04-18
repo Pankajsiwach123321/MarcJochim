@@ -22,7 +22,10 @@ const Client = () => {
   return (
     <section className=" client">
       <div className="max-w-content mx-auto px-3 relative z-[1] pt-20 md:pt-48 mt-2 pb-20 md:pb-[186px]">
-        <h2 className=" uppercase text-center ff-neue font-normal text-4xl lg:text-[52px] leading-[46px] lg:leading-[66px]">
+        <h2
+          data-aos="fade-down"
+          className=" uppercase text-center ff-neue font-normal text-4xl lg:text-[52px] leading-[46px] lg:leading-[66px]"
+        >
           What our <span className=" text-orange-white-100">clients</span> say
         </h2>
         <Swiper

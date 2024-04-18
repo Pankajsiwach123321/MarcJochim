@@ -4,12 +4,15 @@ import { MessageButton } from "../common/Button";
 
 const Nonbinding = () => {
   return (
-    <section>
+    <section id="testimonials">
       <div className=" bg-[#F2F8FF]">
         <div className="max-w-content mx-auto px-3 pt-10 md:pt-[71px]">
           <div className="row items-center md:pb-14">
             <div className="sm:w-7/12 w-full px-3">
-              <h2 className=" ff-neue font-normal text-center sm:text-start  uppercase  max-w-[610px]  text-4xl lg:text-[52px] leading-[44px] lg:leading-[66px]">
+              <h2
+                data-aos="fade-down"
+                className=" ff-neue font-normal text-center sm:text-start  uppercase  max-w-[610px]  text-4xl lg:text-[52px] leading-[44px] lg:leading-[66px]"
+              >
                 Request your <br />
                 <span className="text-orange-white-100 ">non-binding</span>{" "}
                 strategy meeting now!
@@ -27,9 +30,13 @@ const Nonbinding = () => {
         </div>
         <div className=" bg-[url(./assets/images/Harmones.png)] relative z-[1] bg-no-repeat bg-cover bg-center md:bg-fullsize mt-[52px] after:absolute after:inset-0 after:bg-[#003e922e] after:backdrop-blur-sm pb-10 md:pb-[186px] pt-10  md:pt-28 ">
           <div className="max-w-content mx-auto px-3  relative z-[1]">
-            <div className="row  justify-center">
+            <div className="row max-sm:mx-0  justify-center">
               {harmonesData.slice(0, 3).map((data, index) => (
-                <div key={index} className="max-w-[250px] w-full">
+                <div
+                  data-aos={data.aos}
+                  key={index}
+                  className="sm:max-w-[250px] w-full py-3 sm:py-0"
+                >
                   <div className=" bg-[#ffffff26] hover:bg-[#003E92] duration-300 p-[61px_26px] h-full min-h-[200px]">
                     <p className=" font-poppines text-base font-normal leading-[25.6px] text-white">
                       {data.para}
@@ -38,9 +45,13 @@ const Nonbinding = () => {
                 </div>
               ))}
             </div>
-            <div className="row mt-[29px] justify-center ">
+            <div className="row max-sm:mx-0 mt-[29px] justify-center ">
               {harmonesData.slice(3).map((data, index) => (
-                <div key={index} className="max-w-[250px] w-full">
+                <div
+                  data-aos={data.aos}
+                  key={index}
+                  className="sm:max-w-[250px] w-full py-3 sm:py-0"
+                >
                   <div className=" bg-[#FFFFFF26] hover:bg-[#003E92] duration-300 p-[61px_26px] h-full min-h-[200px]">
                     <p className=" font-poppines text-base font-normal leading-[25.6px] text-white">
                       {data.para}

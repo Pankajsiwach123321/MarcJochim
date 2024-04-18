@@ -7,7 +7,10 @@ import { Twirl as Hamburger } from "hamburger-react";
 const Header = () => {
   const [isOpen, setOpen] = useOverflowHidden(false);
   return (
-    <div className=" min-h-[810px] flex-col relative z-[1] flex  bg-[url(./assets/images/herobg.png)] bg-left-top md:bg-fullsize bg-no-repeat">
+    <header
+      id="home"
+      className=" min-h-[810px] flex-col relative z-[1] flex  bg-[url(./assets/images/herobg.png)] bg-left-top md:bg-fullsize bg-no-repeat"
+    >
       <nav className=" pt-[26px]">
         <div className=" max-w-content  px-3 mx-auto">
           <ul className=" flex justify-between items-center">
@@ -28,7 +31,7 @@ const Header = () => {
                 Benifits
               </a>
               <a
-                href="#benifits"
+                href="#testimonials"
                 className=" ff-neue font-semibold text-base leading-[20.61px] lg:text-white-100 duration-300 hover:text-black"
               >
                 Testimonials
@@ -52,15 +55,10 @@ const Header = () => {
           </ul>
         </div>
       </nav>
-      <main
-        data-scroll
-        data-scroll-speed="2"
-        data-scroll-position="top"
-        className=" flex-grow w-full flex items-center"
-      >
+      <main className=" flex-grow w-full flex items-center">
         <div className=" max-w-content w-full relative z-[1] text-center sm:text-start  px-3 mx-auto">
           <div className=" flex flex-col md:flex-row md:items-end gap-0 lg:gap-[128px]">
-            <div>
+            <div data-aos="fade-down" data-aos-delay="3000">
               <span className=" text-lg leading-6 text-orange-white-100 ff-neue font-normal">
                 Marc joachim hubrich
               </span>
@@ -84,7 +82,11 @@ const Header = () => {
                 </a>
               </div>
             </div>
-            <div className=" flex items-start justify-center sm:justify-start gap-[13px] translate-y-6  md:translate-y-[133px]">
+            <div
+              data-aos="fade-down"
+              data-aos-delay="3000"
+              className=" flex items-start justify-center sm:justify-start gap-[13px] !translate-y-6  md:!translate-y-[133px]"
+            >
               <span className=" bg-[#9800B0] h-[74px] w-[1.5px] mt-1"></span>
               <p className="ff-neue max-w-[140px] font-normal text-base leading-[27px] md:text-white">
                 Die wichtigsten Aspekte einer Trennung:
@@ -122,7 +124,7 @@ const Header = () => {
       <span className=" absolute z-[-1] top-0 left-0 w-[2px]">
         <ElippesHeader />
       </span>
-    </div>
+    </header>
   );
 };
 

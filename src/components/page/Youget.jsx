@@ -3,9 +3,14 @@ import { MessageButton } from "../common/Button";
 import purpleFlower from "../../assets/images/purleflower.png";
 const Youget = () => {
   return (
-    <section>
+    <section id="benifits">
       <div className="  relative z-[1] max-w-content mx-auto px-3">
-        <p className=" font-poppines pb-5 font-normal text-base text-center pt-12 leading-[25px]">
+        <p
+          data-aos="fade-down"
+          className=" font-poppines pb-5 font-normal text-base text-center pt-12
+          leading-[25px]"
+        >
+          {" "}
           You are not alone! Numerous women before you stood exactly at this
           point, where you are now.
         </p>
@@ -18,8 +23,16 @@ const Youget = () => {
             <div className=" flex gap-[12px] items-center justify-center md:justify-end">
               <h2 className=" ff-neue font-normal uppercase max-w-[266px] text-4xl lg:text-[52px] leading-[44px] lg:leading-[66px]">
                 what you{" "}
-                <span className=" xl:text-6xl xl:leading-[78px]">will</span>
-                <span className="text-orange-white-100 xl:leading-[78px] xl:text-6xl">
+                <span
+                  className=" xl:text-6xl xl:leading-[78px]"
+                  data-aos="fade-up"
+                >
+                  will
+                </span>
+                <span
+                  data-aos="fade-up"
+                  className="text-orange-white-100 xl:leading-[78px] xl:text-6xl"
+                >
                   {" "}
                   GET
                 </span>{" "}
@@ -27,7 +40,7 @@ const Youget = () => {
               <img
                 src={purpleFlower}
                 alt="purplefolwer"
-                className=" max-w-[170px] lg:max-w-[224px] w-full"
+                className=" max-w-[170px] lg:max-w-[224px] w-full animate-spin-flower"
               />
             </div>
           </div>
@@ -39,7 +52,10 @@ const Youget = () => {
             </p>
           </div>
         </div>
-        <p className=" ff-neue font-black text-xl leading-[28px] text-center pt-12">
+        <p
+          data-aos="fade-down"
+          className=" ff-neue font-black text-xl leading-[28px] text-center pt-12"
+        >
           In a 1:1 live coaching session, we will clarify the following
           questions in particular:
         </p>

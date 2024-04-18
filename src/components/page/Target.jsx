@@ -7,7 +7,10 @@ const Target = () => {
         <div className="max-w-content mx-auto px-3 pt-12">
           <div className="row items-center">
             <div className="sm:w-8/12 w-full px-3">
-              <h2 className=" ff-neue font-normal sm:pl-9 uppercase text-center  text-4xl lg:text-[52px] leading-[44px] lg:leading-[66px]">
+              <h2
+                data-aos="fade-down"
+                className=" ff-neue font-normal sm:pl-9 uppercase text-center  text-4xl lg:text-[52px] leading-[44px] lg:leading-[66px]"
+              >
                 <span className="text-orange-white-100 ">TARGET</span> GROUP
               </h2>
             </div>
@@ -22,13 +25,19 @@ const Target = () => {
         <div className=" bg-[url(./assets/images/ring.png)] bg-no-repeat bg-cover bg-center md:bg-fullsize mt-[52px] ">
           <div className="max-w-content mx-auto px-3  relative z-[1] text-center md:text-start">
             <div className=" py-10 md:py-20 lg:py-[108px]">
-              <div className=" h-full p-[40px_32px] bg-[#ffffff1f] max-w-[382px] mx-auto md:mx-0 lg:min-h-[187px]">
+              <div
+                data-aos="fade-down"
+                className=" h-full p-[40px_32px] bg-[#ffffff1f] max-w-[382px] mx-auto md:mx-0 lg:min-h-[187px]"
+              >
                 <p className=" text-white font-poppines text-base leading-[25px]">
                   You have separated and have the feeling that you can never be
                   happy again and that you will be alone forever.
                 </p>
               </div>
-              <div className=" mt-8 h-full p-[40px_32px] bg-[#ffffff1f] max-w-[382px] mx-auto md:mx-0 lg:min-h-[187px]">
+              <div
+                data-aos="fade-up"
+                className=" mt-8 h-full p-[40px_32px] bg-[#ffffff1f] max-w-[382px] mx-auto md:mx-0 lg:min-h-[187px]"
+              >
                 <p className=" text-white font-poppines text-base max-w-[303px] leading-[25px]">
                   How are you supposed to be able to let go of someone who is so
                   entangled with your life? It's impossible, isn't it?
