@@ -1,6 +1,6 @@
 import React from "react";
 import { MessageButton } from "../common/Button";
-import purpleFlower from "../../assets/images/purleflower.png";
+import purpleFlower from "../../assets/images/purleflower.webp";
 const Youget = () => {
   return (
     <section id="benifits">

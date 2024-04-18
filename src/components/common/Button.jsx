@@ -1,5 +1,5 @@
 import { useSwiper } from "swiper/react";
-import gradiantMessage from "../../assets/images/gradiantmessage.png";
+import gradiantMessage from "../../assets/images/gradiantmessage.webp";
 
 import { NextArrow, PrevArrow } from "./Icon";
 export const NavButton = (props) => {

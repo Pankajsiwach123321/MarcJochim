@@ -3,7 +3,7 @@ import { fightData } from "../common/Helper.jsx";
 
 const Fight = () => {
   return (
-    <section className=" bg-[url(./assets/images/fight.png)] bg-no-repeat bg-cover bg-center lg:bg-fullsize mt-[35px] after:absolute after:bg-[#003e9233]  after:inset-0 relative z-[1] after:z-[-1]">
+    <section className=" bg-[url(./assets/images/fight.webp)] bg-no-repeat bg-cover bg-center lg:bg-fullsize mt-[35px] after:absolute after:bg-[#003e9233]  after:inset-0 relative z-[1] after:z-[-1]">
       <div className="max-w-[1000px] mx-auto px-3">
         <div className="row max-sm:mx-0 md:justify-end justify-center">
           {fightData.slice(0, 3).map((data, index) => (

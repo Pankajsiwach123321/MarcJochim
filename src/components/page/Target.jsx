@@ -22,7 +22,7 @@ const Target = () => {
             </div>
           </div>
         </div>
-        <div className=" bg-[url(./assets/images/ring.png)] bg-no-repeat bg-cover bg-center md:bg-fullsize mt-[52px] ">
+        <div className=" bg-[url(./assets/images/ring.webp)] bg-no-repeat bg-cover bg-center md:bg-fullsize mt-[52px] ">
           <div className="max-w-content mx-auto px-3  relative z-[1] text-center md:text-start">
             <div className=" py-10 md:py-20 lg:py-[108px]">
               <div

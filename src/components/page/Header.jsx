@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header
       id="home"
-      className=" min-h-[810px] flex-col relative z-[1] flex  bg-[url(./assets/images/herobg.png)] bg-left-top md:bg-fullsize bg-no-repeat"
+      className=" min-h-[810px] flex-col relative z-[1] flex  bg-[url(./assets/images/herobg.webp)] bg-left-top md:bg-fullsize bg-no-repeat"
     >
       <nav className=" pt-[26px]">
         <div className=" max-w-content  px-3 mx-auto">

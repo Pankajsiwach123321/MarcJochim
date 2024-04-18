@@ -1,5 +1,5 @@
 import React from "react";
-import bearMan from "../../assets/images/manbeard.png";
+import bearMan from "../../assets/images/manbeard.webp";
 import { AboutEllipes, ArrowButton } from "../common/Icon";
 const About = () => {
   return (

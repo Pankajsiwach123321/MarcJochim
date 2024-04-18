@@ -3,7 +3,7 @@ import { NavButton } from "../common/Button";
 
 const Over = () => {
   return (
-    <section className=" bg-[url(./assets/images/exover.png)] bg-no-repeat bg-cover bg-center md:bg-fullsize relative z-[1] after:absolute after:bg-[#003e921a]  after:inset-0 after:z-[-1]">
+    <section className=" bg-[url(./assets/images/exover.webp)] bg-no-repeat bg-cover bg-center md:bg-fullsize relative z-[1] after:absolute after:bg-[#003e921a]  after:inset-0 after:z-[-1]">
       <div className="max-w-content mx-auto px-3">
         <div className="lg:py-[106px] py-10">
           <div className=" md:p-[50px_75px_42px_75px] p-5 backdrop-blur-sm bg-[#ffffff26] max-w-[778px] mx-auto">

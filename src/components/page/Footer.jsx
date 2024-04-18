@@ -4,7 +4,7 @@ import { LogoDataFooter } from "../common/Helper";
 
 const Footer = () => {
   return (
-    <footer className=" bg-no-repeat bg-fullsize bg-[url(./assets/images/footerbg.png)] overflow-hidden ">
+    <footer className=" bg-no-repeat bg-fullsize bg-[url(./assets/images/footerbg.webp)] overflow-hidden ">
       <div className="max-w-[1000px] flex flex-col justify-center relative  items-center py-24 flex-grow mx-auto px-3">
         <a href="#home">
             <LogoFooter />

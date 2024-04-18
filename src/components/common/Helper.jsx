@@ -1,4 +1,4 @@
-import girlProfile from "../../assets/images/girlprofile.png";
+import girlProfile from "../../assets/images/girlprofile.webp";
 import { FaceBook, Instagram, Mail, Twitter } from "./Icon";
 
 export const fightData = [

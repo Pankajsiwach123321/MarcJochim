@@ -1,5 +1,5 @@
 import React from "react";
-import girlProfile from "../../assets/images/girlprofile.png";
+import girlProfile from "../../assets/images/girlprofile.webp";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -35,7 +35,9 @@ const Client = () => {
           autoHeight={true}
           spaceBetween={200}
           slidesPerView={1}
-          pagination={true}
+          pagination={{
+            clickable: true,
+          }}
           navigation={false}
           onSwiper={setFirstSwiper}
           controller={{ control: secondSwiper }}

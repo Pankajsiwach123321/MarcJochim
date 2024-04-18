@@ -1,8 +1,8 @@
 import React from "react";
 import { goalData } from "../common/Helper";
 import { MessageButton } from "../common/Button";
-import topGoal from "../../assets/images/topgoal.png";
-import bottomGoal from "../../assets/images/bottomgoal.png";
+import topGoal from "../../assets/images/topgoal.webp";
+import bottomGoal from "../../assets/images/bottomgoal.webp";
 
 const Goal = () => {
   return (

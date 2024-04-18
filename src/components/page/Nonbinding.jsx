@@ -28,7 +28,7 @@ const Nonbinding = () => {
             </div>
           </div>
         </div>
-        <div className=" bg-[url(./assets/images/Harmones.png)] relative z-[1] bg-no-repeat bg-cover bg-center md:bg-fullsize mt-[52px] after:absolute after:inset-0 after:bg-[#003e922e] after:backdrop-blur-sm pb-10 md:pb-[186px] pt-10  md:pt-28 ">
+        <div className=" bg-[url(./assets/images/Harmones.webp)] relative z-[1] bg-no-repeat bg-cover bg-center md:bg-fullsize mt-[52px] after:absolute after:inset-0 after:bg-[#003e922e] after:backdrop-blur-sm pb-10 md:pb-[186px] pt-10  md:pt-28 ">
           <div className="max-w-content mx-auto px-3  relative z-[1]">
             <div className="row max-sm:mx-0  justify-center">
               {harmonesData.slice(0, 3).map((data, index) => (
