@@ -22,7 +22,7 @@ const Goal = () => {
               </div>
             </div>
           ))}
-          <div className="  lg:w-4/12 sm:w-1/2 w-full  group hover:bg-white-200 duration-300 ">
+          <div className="  lg:w-4/12 sm:w-1/2 w-full ">
             <div className=" lg:p-[63px_48px] p-[43px_24px] h-full xl:min-h-[230px]">
               <MessageButton
                 main=" rounded-lg"
