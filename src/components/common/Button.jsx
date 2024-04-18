@@ -39,10 +39,10 @@ export const SwiperButton = () => {
   return (
     <>
       <div className=" flex  gap-[42px] items-center">
-        <button onClick={() => swiper.slidePrev()}>
+        <button aria-label="prevarrow" onClick={() => swiper.slidePrev()}>
           <PrevArrow />
         </button>
-        <button onClick={() => swiper.slideNext()}>
+        <button aria-label="nextarrow" onClick={() => swiper.slideNext()}>
           <NextArrow />
         </button>
       </div>

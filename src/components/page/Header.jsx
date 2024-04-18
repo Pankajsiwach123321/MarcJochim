@@ -15,7 +15,7 @@ const Header = () => {
         <div className=" max-w-content  px-3 mx-auto">
           <ul className=" flex justify-between items-center">
             <li>
-              <a href="#home">
+              <a aria-label="homelogo" href="#home">
                 <Logo />
               </a>
             </li>
@@ -25,18 +25,20 @@ const Header = () => {
               } flex max-sm:fixed max-sm:top-0 max-sm:justify-center max-sm:bg-white md:bg-full bg-cover max-sm:h-full max-sm:w-full max-sm:z-30 max-sm:duration-300 max-sm:flex-col gap-10 items-center `}
             >
               <a
+                aria-label="benifits"
                 href="#benifits"
                 className=" ff-neue font-semibold text-base leading-[20.61px] lg:text-white-100 duration-300 hover:text-black"
               >
                 Benifits
               </a>
               <a
+                aria-label="testimonials"
                 href="#testimonials"
                 className=" ff-neue font-semibold text-base leading-[20.61px] lg:text-white-100 duration-300 hover:text-black"
               >
                 Testimonials
               </a>
-              <a href="#home">
+              <a aria-label="button" href="#home">
                 <NavButton text="Book Consultation Now" />
               </a>
             </li>
@@ -75,6 +77,7 @@ const Header = () => {
               <div className="mt-8 flex items-center justify-center sm:justify-start gap-2 lg:gap-[17px]">
                 <MessageButton text="Book a non-binding initial consultation now" />
                 <a
+                  aria-label="phonenumber"
                   className=" hover:animate-spin-slow"
                   href="tel:+919992148553"
                 >

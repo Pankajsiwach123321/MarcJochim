@@ -36,7 +36,10 @@ export const harmonesData = [
   { para: "Do I need a lawyer?", aos: "zoom-in" },
   { para: "How much will the divorce cost?", aos: "zoom-out" },
   { para: "What will happen to my children?", aos: "zoom-out" },
-  { para: "What does my future as a single person look like now?", aos: "zoom-out" },
+  {
+    para: "What does my future as a single person look like now?",
+    aos: "zoom-out",
+  },
   { para: "How do I rebuild my self-esteem?", aos: "zoom-out" },
 ];
 export const goalData = [
@@ -90,18 +93,22 @@ export const firstSwiperData = [
 export const LogoDataFooter = [
   {
     icon: <FaceBook />,
+    label: "FaceBook",
     url: "https://www.facebook.com/",
   },
   {
     icon: <Twitter />,
+    label: "Twitter",
     url: "https://twitter.com/home?lang=en",
   },
   {
     icon: <Mail />,
+    label: "Mail",
     url: "https://mail.google.com/mail/u/0/#inbox",
   },
   {
     icon: <Instagram />,
+    label: "Instagram",
     url: "https://www.instagram.com/",
   },
 ];
