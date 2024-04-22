@@ -31,7 +31,7 @@ const Fault = () => {
         </div>
         <p
           data-aos="fade-down"
-          className=" mt-7 lg:mt-14 lg:pt-[2px] text-xl leading-7 text-center ff-neue font-black"
+          className=" mt-7 lg:mt-14 lg:pt-[2px] capitalize    text-xl leading-7 text-center ff-neue font-black"
         >
           How would you know when you are busy with completely different things
           at the moment:

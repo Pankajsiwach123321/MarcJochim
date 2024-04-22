@@ -26,7 +26,7 @@ const Goal = () => {
             <div className=" lg:p-[63px_48px] p-[43px_24px] h-full xl:min-h-[230px]">
               <MessageButton
                 main=" rounded-lg"
-                child="rounded-[7px] py-[18px] gap-[6px]"
+                child="rounded-[7px] !py-[18px] !gap-[6px]"
                 text="Book a non-binding initial consultation now"
               />
             </div>

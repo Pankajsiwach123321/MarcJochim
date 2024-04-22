@@ -68,7 +68,7 @@ const Header = () => {
           <div className=" flex flex-col md:flex-row md:items-end gap-0 lg:gap-[128px]">
             <div data-aos="fade-down" data-aos-delay="3000">
               <span className=" text-lg leading-6 text-orange-white-100 ff-neue font-normal">
-                Marc joachim hubrich
+                Marc Joachim Hubrich
               </span>
               <h1 className=" ff-neue font-normal text-6xl leading-[77px]">
                 Now I let you
