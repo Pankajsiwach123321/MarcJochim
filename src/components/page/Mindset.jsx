@@ -6,12 +6,15 @@ import "swiper/css/effect-flip";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { EffectFlip, Navigation, Pagination } from "swiper/modules";
-import { EllipesSlider } from "../common/Icon";
+import { EllipesSlider, MindsetEllipes } from "../common/Icon";
 import { firstSwiperData } from "../common/Helper";
 
 const Mindset = () => {
   return (
-    <section className=" mt-[10px] mindset">
+    <section className=" mt-[10px] mindset relative z-[1]">
+      <span className=" absolute z-[-1] top-[-65%] left-0 ">
+        <MindsetEllipes />
+      </span>
       <div className=" max-w-content mx-auto px-3">
         <div className=" flex h-full justify-ed flex-col items-end">
           <span className=" font-poppines xl:translate-x-5 translate-x-3 inline-block w-full max-w-max -rotate-90 font-light text-xl leading-[34px]">

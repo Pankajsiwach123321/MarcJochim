@@ -2,7 +2,7 @@ import React from "react";
 
 const Target = () => {
   return (
-    <section className="md:pt-14 relative z-[1]">
+    <section className="md:pt-14 relative z-[2]">
       <div className=" bg-[#F2F8FF]">
         <div className="max-w-content mx-auto px-3 pt-12">
           <div className="row items-center">
@@ -27,18 +27,18 @@ const Target = () => {
             <div className=" py-10 md:py-20 lg:py-[108px]">
               <div
                 data-aos="fade-down"
-                className=" h-full p-[40px_32px] bg-[#ffffff1f] max-w-[382px] mx-auto md:mx-0 lg:min-h-[187px]"
+                className="max-w-[382px] w-full h-[187px] bg-[#ffffff1f] hover:bg-[#003E92B2] duration-300 backdrop-blur-md border border-solid border-[#FFFFFF26] flex justify-center items-center"
               >
-                <p className=" text-white font-poppines text-base leading-[25px]">
-                  You have separated and have the feeling that you can never be
-                  happy again and that you will be alone forever.
+                <p className=" text-white max-w-[312.34px] font-poppines leading-[25.6px] font-normal text-base">
+                  You Have Separated And Have The Feeling That You Can Never Be
+                  Happy Again And That You Will Be Alone Forever.
                 </p>
               </div>
               <div
                 data-aos="fade-up"
-                className=" mt-8 h-full p-[40px_32px] bg-[#ffffff1f] max-w-[382px] mx-auto md:mx-0 lg:min-h-[187px]"
+                className="max-w-[382px] mt-8 w-full h-[187px] bg-[#ffffff1f] hover:bg-[#003E92B2] duration-300 backdrop-blur-md border border-solid border-[#FFFFFF26] flex justify-center items-center mb-8"
               >
-                <p className=" text-white font-poppines text-base max-w-[303px] leading-[25px]">
+                <p className=" text-white max-w-[303.34px] font-poppines leading-[25.6px] font-normal text-base">
                   How are you supposed to be able to let go of someone who is so
                   entangled with your life? It's impossible, isn't it?
                 </p>

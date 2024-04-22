@@ -94,12 +94,14 @@ const Header = () => {
             <div
               data-aos="fade-down"
               data-aos-delay="3000"
-              className=" flex items-start justify-center sm:justify-start gap-[13px] !translate-y-6  md:!translate-y-[133px]"
+              className=" flex items-start justify-center sm:justify-start gap-5 lg:gap-[49px] !translate-y-6  md:!translate-y-[133px]"
             >
-              <span className=" bg-[#9800B0] h-[74px] w-[1.5px] mt-1"></span>
-              <p className="ff-neue max-w-[140px] font-normal text-base leading-[27px] md:text-white">
-                Die wichtigsten Aspekte einer Trennung:
-              </p>
+              <div className=" flex items-center gap-[13px]">
+                <span className=" bg-[#9800B0] h-[74px] w-[1.5px] mt-1"></span>
+                <p className="ff-neue uppercase max-w-[140px] font-normal text-base leading-[27px] md:text-white">
+                  Die wichtigsten Aspekte einer Trennung:
+                </p>
+              </div>
               <ul>
                 <li className=" list-disc font-poppines font-medium text-base leading-[25px] md:text-white">
                   physische Trennung
