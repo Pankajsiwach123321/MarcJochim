@@ -103,10 +103,10 @@ const Header = () => {
                 </p>
               </div>
               <ul>
-                <li className=" list-disc font-poppines font-medium text-base leading-[25px] md:text-white">
+                <li className=" list-disc capitalize font-poppines font-medium text-base leading-[25px] md:text-white">
                   physische Trennung
                 </li>
-                <li className=" list-disc font-poppines font-medium text-base leading-[25px] md:text-white pt-[2px]">
+                <li className=" list-disc capitalize font-poppines font-medium text-base leading-[25px] md:text-white pt-[2px]">
                   mentale Trennung
                 </li>
               </ul>

@@ -25,23 +25,21 @@ const Target = () => {
         <div className=" bg-[url(./assets/images/ring.webp)] bg-no-repeat bg-cover bg-center md:bg-fullsize mt-[52px] ">
           <div className="max-w-content mx-auto px-3  relative z-[1] text-center md:text-start">
             <div className=" py-10 md:py-20 lg:py-[108px]">
-              <div
-                data-aos="fade-down"
-                className="max-w-[382px] w-full h-[187px] bg-[#ffffff1f] hover:bg-[#003E92B2] duration-300 backdrop-blur-md border border-solid border-[#FFFFFF26] flex justify-center items-center"
-              >
-                <p className=" text-white max-w-[312.34px] font-poppines leading-[25.6px] font-normal text-base">
-                  You Have Separated And Have The Feeling That You Can Never Be
-                  Happy Again And That You Will Be Alone Forever.
-                </p>
+              <div data-aos="fade-down">
+                <div className="max-w-[382px] w-full h-[187px] bg-[#ffffff1f] hover:bg-[#003E92B2] duration-300 backdrop-blur-md border border-solid border-[#FFFFFF26] flex justify-center items-center">
+                  <p className=" text-white max-w-[312.34px] font-poppines leading-[25.6px] font-normal text-base">
+                    You Have Separated And Have The Feeling That You Can Never
+                    Be Happy Again And That You Will Be Alone Forever.
+                  </p>
+                </div>
               </div>
-              <div
-                data-aos="fade-up"
-                className="max-w-[382px] mt-8 w-full h-[187px] bg-[#ffffff1f] hover:bg-[#003E92B2] duration-300 backdrop-blur-md border border-solid border-[#FFFFFF26] flex justify-center items-center mb-8"
-              >
-                <p className=" text-white max-w-[303.34px] font-poppines leading-[25.6px] font-normal text-base">
-                  How are you supposed to be able to let go of someone who is so
-                  entangled with your life? It's impossible, isn't it?
-                </p>
+              <div data-aos="fade-up">
+                <div className="max-w-[382px] capitalize mt-8 w-full h-[187px] bg-[#ffffff1f] hover:bg-[#003E92B2] duration-300 backdrop-blur-md border border-solid border-[#FFFFFF26] flex justify-center items-center mb-8">
+                  <p className=" text-white max-w-[303.34px] font-poppines leading-[25.6px] font-normal text-base">
+                    How are you supposed to be able to let go of someone who is
+                    so entangled with your life? It's impossible, isn't it?
+                  </p>
+                </div>
               </div>
             </div>
             <div className=" p-[65px_28px_77px_39px] bg-[#003e92b3] mx-auto md:mx-0 md:absolute z-[-1] bottom-[-31px] right-8 backdrop-blur-sm md:ml-auto max-w-[338px] w-full">

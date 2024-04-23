@@ -16,7 +16,7 @@ const Goal = () => {
               className=" lg:w-4/12 sm:w-1/2 w-full group hover:bg-white-200 duration-300 "
             >
               <div className=" lg:p-[63px_48px] p-[43px_24px] h-full xl:min-h-[230px]">
-                <p className=" font-poppines font-normal text-base leading-[25px] text-gray-white-100 duration-300 group-hover:text-blue-dark-100">
+                <p className=" capitalize font-poppines font-normal text-base leading-[25px] text-gray-white-100 duration-300 group-hover:text-blue-dark-100">
                   {data.para}
                 </p>
               </div>

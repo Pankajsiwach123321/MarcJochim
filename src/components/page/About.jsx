@@ -13,7 +13,7 @@ const About = () => {
             <p className=" ff-neue -rotate-90 font-normal text-2xl text-[40px]">
               05
             </p>
-            <p className=" ff-neue  font-normal text-2xl leading-[30px]">
+            <p className=" ff-neue  font-normal translate-y-2 text-2xl leading-[30px]">
               ABOUT
             </p>
           </div>

@@ -5,7 +5,7 @@ import { NextArrow, PrevArrow } from "./Icon";
 export const NavButton = (props) => {
   return (
     <button
-      className={` ${props.class} py-4 px-[28.21px] text-white text-base buttonbg leading-6 font-inter font-medium `}
+      className={` ${props.class} capitalize py-4 px-[28.21px] text-white text-base buttonbg leading-6 font-inter font-medium `}
     >
       {props.text}
     </button>
@@ -27,7 +27,7 @@ export const MessageButton = (props) => {
             className=" max-w-[50px] w-full lg:min-w-[50px]"
           />
         </span>
-        <span className=" bg-bgButton bg-clip-text text-transparent font-medium text-sm sm:text-base leading-5 sm:leading-6 font-inter">
+        <span className=" capitalize bg-bgButton bg-clip-text text-transparent font-medium text-sm sm:text-base leading-5 sm:leading-6 font-inter">
           {props.text}
         </span>
       </a>
